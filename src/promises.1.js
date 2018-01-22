@@ -26,9 +26,9 @@ function getDate(url, done) {
   xhr.send();
 }
 
-let search = "spider man";
+let search = "007";
 getDate(
-  `http://www.omdbapi.com/?i=tt3896198&apikey=9450f321=${search}`,
+  `http://www.omdbapi.com/?i=tt3896198&apikey=9450f321&s=${search}`,
   function(movies) {
     movies.forEach(function(movie) {
       addMovieToList(movie);
