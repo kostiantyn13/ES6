@@ -118,7 +118,7 @@ class ArrayIterator {
     return result;
   }
 }
-yy;
+
 class Tasks {
   constructor() {
     this.tasks = [];
