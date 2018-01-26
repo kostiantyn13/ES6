@@ -117,3 +117,5 @@ let obj = {
 for (let num of obj.rang(47, 66)) {
   console.log(num);
 }
+
+let generator = function*() {};
