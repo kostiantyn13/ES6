@@ -1,9 +1,9 @@
 {
   "name": "ES6",
-  "version": "1.0.0",
+  "version": "1.0",
   "description": "",
   "main": "index.js",
-  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
+  "repository": "git@github.com:kostiantyn13/ES6.git",
   "scripts": {
     "build": "babel src -d distribution --presets es2015",
     "watch": "babel src -d distribution --presets es2015 -w"
